@@ -1,3 +1,10 @@
+# Собрать контейнер:
+# cd homework_03
+# docker build -t myapp .
+
+# Запусить:
+# docker run -p 8000:8000 myapp
+
 FROM python:3.12.2-bookworm
 
 WORKDIR /
